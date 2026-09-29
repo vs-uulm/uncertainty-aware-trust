@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "data_root": "<raw per-message JSON output of detection-systems/rule-based_mds>",
+  "feature_names": [
+    "range_plaus",
+    "pos_plaus",
+    "speed_plaus",
+    "pos_cons",
+    "speed_cons",
+    "pos_speed_cons",
+    "pos_head_cons",
+    "intersection"
+  ],
+  "feature_check_keys": [
+    "range_plausibility_check",
+    "position_plausibility_check",
+    "speed_plausibility_check",
+    "position_consistency_check",
+    "speed_consistency_check",
+    "position_speed_consistency_check",
+    "position_heading_consistency_check",
+    "intersection_check"
+  ],
+  "splits": {
+    "Train": {
+      "n_samples": 49111749,
+      "n_files": 39660,
+      "load_time_sec": 1539.56,
+      "size_mb": 225.97,
+      "path": "dataset/rule-based_mds/features_train.npz"
+    },
+    "Validation": {
+      "n_samples": 13917897,
+      "n_files": 12990,
+      "load_time_sec": 650.97,
+      "size_mb": 58.92,
+      "path": "dataset/rule-based_mds/features_validation.npz"
+    },
+    "Test": {
+      "n_samples": 133514912,
+      "n_files": 39000,
+      "load_time_sec": 3473.81,
+      "size_mb": 517.66,
+      "path": "dataset/rule-based_mds/features_test.npz"
+    }
+  },
+  "built_at": "2026-06-29 15:07:17"
+}
