@@ -1,0 +1,9 @@
+Uncertainty-Aware Trust Quantification
+Copyright 2026 Artur Hermann, Dennis Eisermann, Frank Kargl (Ulm University)
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE.txt).
+
+The files in dataset/ are derived from the following third-party datasets.
+Their use is additionally subject to the terms of the original datasets:
+  - VeReMi NextGen: https://veremi-dataset.github.io/veremi-nextgen
+  - TEXBAT (Texas Spoofing Test Battery): https://radionavlab.ae.utexas.edu/texbat/
