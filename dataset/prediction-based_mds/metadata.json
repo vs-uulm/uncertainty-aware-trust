@@ -1,0 +1,104 @@
+{
+  "schema_version": 2,
+  "data_root": "<raw per-vehicle JSON output of detection-systems/prediction-based_mds>",
+  "feature_names": [
+    "pos_err",
+    "speed_err",
+    "acc_err",
+    "road_edge",
+    "time_err",
+    "heading_err"
+  ],
+  "feature_json_keys": [
+    "relative_position_error",
+    "sender_speed_error",
+    "sender_acceleration_error",
+    "distance_to_road_edge_error",
+    "receiver_time_error",
+    "sender_heading_error"
+  ],
+  "selected_attacks": [
+    "constantPositionOffset",
+    "randomPositionOffset",
+    "positionMirroring",
+    "suddenStop",
+    "accelerationMultiplication",
+    "feignedBraking",
+    "constantSpeedOffset",
+    "randomSpeedOffset",
+    "suddenConstantSpeed",
+    "zeroSpeedReport",
+    "reversedHeading",
+    "dataReplay",
+    "dosAttack"
+  ],
+  "splits": {
+    "Train": {
+      "n_samples": 23375149,
+      "n_files": 30369,
+      "attacks": [
+        "accelerationMultiplication",
+        "constantPositionOffset",
+        "constantSpeedOffset",
+        "dataReplay",
+        "dosAttack",
+        "feignedBraking",
+        "positionMirroring",
+        "randomPositionOffset",
+        "randomSpeedOffset",
+        "reversedHeading",
+        "suddenConstantSpeed",
+        "suddenStop",
+        "zeroSpeedReport"
+      ],
+      "load_time_sec": 31.88,
+      "size_mb": 473.02,
+      "path": "dataset/prediction-based_mds/features_train.npz"
+    },
+    "Validation": {
+      "n_samples": 6113680,
+      "n_files": 9440,
+      "attacks": [
+        "accelerationMultiplication",
+        "constantPositionOffset",
+        "constantSpeedOffset",
+        "dataReplay",
+        "dosAttack",
+        "feignedBraking",
+        "positionMirroring",
+        "randomPositionOffset",
+        "randomSpeedOffset",
+        "reversedHeading",
+        "suddenConstantSpeed",
+        "suddenStop",
+        "zeroSpeedReport"
+      ],
+      "load_time_sec": 8.54,
+      "size_mb": 124.5,
+      "path": "dataset/prediction-based_mds/features_validation.npz"
+    },
+    "Test": {
+      "n_samples": 79294981,
+      "n_files": 30408,
+      "attacks": [
+        "accelerationMultiplication",
+        "constantPositionOffset",
+        "constantSpeedOffset",
+        "dataReplay",
+        "dosAttack",
+        "feignedBraking",
+        "positionMirroring",
+        "randomPositionOffset",
+        "randomSpeedOffset",
+        "reversedHeading",
+        "suddenConstantSpeed",
+        "suddenStop",
+        "zeroSpeedReport"
+      ],
+      "load_time_sec": 126.76,
+      "size_mb": 1571.34,
+      "path": "dataset/prediction-based_mds/features_test.npz"
+    }
+  },
+  "built_at": "2026-07-15 11:13:16"
+}
