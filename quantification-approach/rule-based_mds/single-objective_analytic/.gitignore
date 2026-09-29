@@ -1,0 +1,14 @@
+# macOS
+._*
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Optuna study DB + cache
+*.db
+metadata.json
+features_*.npz

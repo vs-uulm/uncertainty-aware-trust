@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Data, cache and run outputs
+data/
+cache/
+runs/
+*.db
+*.pt
+*.npz
+
+# OS
+.DS_Store
+._*

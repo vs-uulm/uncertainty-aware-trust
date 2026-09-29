@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.db
+*.db-journal
+*.npz
+*.pt
+sweep_output/
+final_test/
+*.egg-info/
+.DS_Store

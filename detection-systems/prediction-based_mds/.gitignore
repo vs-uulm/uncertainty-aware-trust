@@ -1,0 +1,12 @@
+# macOS
+._*
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Script output
+grouped_feature_outputs/

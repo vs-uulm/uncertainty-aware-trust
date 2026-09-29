@@ -69,6 +69,9 @@ The top-level directories build on each other:
 ```
 .
 ├── README.md
+├── LICENSE.txt                                # Apache License 2.0
+├── NOTICE                                     # copyright and third-party data notice
+├── CITATION.cff                               # citation metadata
 │
 ├── dataset/                                   # detector outputs = input of the trust quantification (~3 GB)
 │   ├── README.md
@@ -127,7 +130,7 @@ The top-level directories build on each other:
 └── fusion-experiment/                         # SL fusion of a V2X MDS and the GDS
     ├── sl_fusion_eval.py                      # fusion operators (CBF, ABF, BCF, CCF, mult) + evaluation
     ├── sl_fusion_results_summary_v5.csv       # result summary (mlp vs. analytic_f1 opinions)
-    └── README.md
+    └── README.md, requirements.txt
 ```
 
 In total the repository holds 12 quantification sweeps: 3 detection systems

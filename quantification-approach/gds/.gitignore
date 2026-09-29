@@ -1,0 +1,18 @@
+# macOS
+._*
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# GNSS split CSVs, Optuna studies, feature caches and run outputs
+data/
+*.db
+*.db-journal
+*.pt
+*.npz
+cache/
+results/

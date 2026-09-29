@@ -1,0 +1,12 @@
+# macOS
+._*
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Results (default output of main.py)
+results/

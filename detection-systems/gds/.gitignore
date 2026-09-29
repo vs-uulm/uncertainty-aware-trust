@@ -1,0 +1,14 @@
+# macOS
+._*
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Script output
+csv_outputs/
+oneclass_*.csv
+detector_predictions.csv

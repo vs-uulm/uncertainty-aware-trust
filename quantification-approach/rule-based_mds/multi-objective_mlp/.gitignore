@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+._*
+.DS_Store
+*.db
+*.pt
+opinions_*.csv
+results/
+data/
