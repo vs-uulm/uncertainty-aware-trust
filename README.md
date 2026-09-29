@@ -160,7 +160,6 @@ If you use the data, please also cite these original datasets.
 The code is licensed under the Apache License 2.0 (see [`LICENSE.txt`](LICENSE.txt)
 and [`NOTICE`](NOTICE)). The data in `dataset/` are derived from VeReMi NextGen
 and TEXBAT and are additionally subject to the terms of these datasets.
-Citation metadata is provided in [`CITATION.cff`](CITATION.cff).
 
 ## Contact
 
